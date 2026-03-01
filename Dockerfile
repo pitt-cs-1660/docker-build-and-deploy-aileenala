@@ -1,7 +1,7 @@
 # =============================================================================
 # stage 1: builder
 # =============================================================================
-FROM golan:1.23 AS builder
+FROM golang:1.23 AS builder
 
 WORKDIR /app
 COPY go.mod main.go ./templates
