@@ -32,5 +32,3 @@ jobs:
           docker build -t app:latest  
           docker tag app:latest 015747469427.dkr.ecr.us-east-1.amazonaws.com/assignment2:latest
           docker push 015747469427.dkr.ecr.us-east-1.amazonaws.com/assignment2:latest
-        
-          exit 1
